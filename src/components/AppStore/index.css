@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.app-container {
+  max-width: 1110px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.heading {
+  font-family: Bree Serif;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 56px;
+  color: #1e293b;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
+.search-input-container {
+  margin-bottom: 20px;
+  background-color: #f1f5f9;
+  border-color: #7b8794;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+}
+
+.search-input {
+  height: 100%;
+  outline: none;
+  border-width: 0px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.icon {
+  height: 30px;
+  margin: 5px;
+}
+.tabs-container {
+  max-width: 300px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .tabs-container {
+    max-width: 455px;
+  }
+}
+
+.project-list-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .project-list-container {
+    margin-bottom: 15px;
+  }
+}
